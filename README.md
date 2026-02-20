@@ -1,4 +1,4 @@
-## "Potyczka z historią"
+### "Potyczka z historią"
 
 Mobilna aplikacja edukacyjna na system Android. To rpojekt pracy inżynierskiej na ISSP UWr.  
 Cel - wsparcie uczniów szkoły podstawowej w utrwalaniu wiedzy z przedmiotu historia, poprzez połączenie treści edukacyjnych z interaktywnymi grami. Aplikacja działa offline wykorzystuje lokalną bazę danych do przechowywania pytań i opowiedzi.
@@ -6,7 +6,7 @@ Cel - wsparcie uczniów szkoły podstawowej w utrwalaniu wiedzy z przedmiotu his
 <img width="105" height="211" alt="welcomeScreen" src="https://github.com/user-attachments/assets/17aedbf6-1f53-46a7-a981-ccf0c525e58d" /> <img width="105" height="211" alt="awatar" src="https://github.com/user-attachments/assets/123924da-7d26-499b-b303-8bfd1e44dfc7" /> <img width="105" height="211" alt="epoka" src="https://github.com/user-attachments/assets/6034cc11-5cae-4955-8736-fc15ca882790" />  <img width="105" height="211" alt="rozdzial" src="https://github.com/user-attachments/assets/4a66b1ca-dff8-4770-8da9-9ae0a03ff610" />  
 <img width="105" height="211" alt="poziom" src="https://github.com/user-attachments/assets/0e729908-b2f3-4a7c-93b6-b74c7f3ec264" />  <img width="105" height="211" alt="potyczka_gonitwa" src="https://github.com/user-attachments/assets/f42a9c1a-1f90-495e-abe1-a0aa7f38d62c" />  <img width="105" height="211" alt="odp_nie" src="https://github.com/user-attachments/assets/f8a6559b-cb26-4761-9b6b-e450ff6e56fe" />   <img width="105" height="211" alt="podsumowanie" src="https://github.com/user-attachments/assets/5eeae636-9338-4410-9517-fe6b2ef9bdfd" />   
 <img width="105" height="211" alt="pojedynek_skok" src="https://github.com/user-attachments/assets/0f884923-4c60-4520-b06b-423343cfb811" />   <img width="105" height="211" alt="mistrz_odp_tak" src="https://github.com/user-attachments/assets/0107a571-af18-439b-b963-109f7791fd6f" />   <img width="105" height="211" alt="mistrz_przegrana" src="https://github.com/user-attachments/assets/cc8496d3-8b70-4ee2-9f24-13985c341c3f" />
-## Dwa tryby gry:
+### Dwa tryby gry:
 1 -Potyczka
 Tryb łączący elementy zręcznościowe z quizem edukacyjnym.Cechy to:
 - wybór postaci, epoki, rozdziału i poziomu trudności,
@@ -26,34 +26,34 @@ Dynamiczny tryb typu runner, skierowany do bardziej zaawansowanych w historii gr
 - pauzowanie pętli gry podczas pytania,
 - warunki zwycięstwa/porażki: punkty, poziom wiedzy, liczba błędów, limit czasu.
 
-## Funkcje edukacyjne:
+### Funkcje edukacyjne:
 - pytania zgodne z podstawą programową historii, (ewentualne zmiany w podstawie łatwo wprowadzić do kodu)
 - losowa kolejność pytań i odpowiedzi,
 - natychmiastowa informacja zwrotna (kolory + dźwięk),
 - możliwość wielokrotnego powtarzania materiału,
 - brak konieczności połączenia z siecią.
 
-## Architektura aplikacji
+### Architektura aplikacji
 Logiczny podział na trzy warstwy:
 - UI – Jetpack Compose (deklaratywny interfejs),
 - Logika i nawigacja – Navigation Compose,
 - Dane – Room + SQLite.
 Dane przekazywane są jawnie pomiędzy ekranami za pomocą argumentów nawigacyjnych, bez stosowania globalnego stanu aplikacji.
 
-## Baza danych
+### Baza danych
 - lokalna relacyjna baza danych SQLite,
 - obsługa przez bibliotekę Room,
 - encje:EpochEntity, ChapterEntity, QuestionEntity, AnswerEntity,
 - relacje z kluczami obcymi i usuwaniem kaskadowym,
 - inicjalizacja danych przez DatabaseSeeder.
 
-## Dźwięk
+### Dźwięk
 - muzyka tła odtwarzana globalnie,
 - efekty dźwiękowe: poprawna odpowiedź, błędna odpowiedź, kolizja, bonus/pułapka,
 - możliwość regulacji/zastopowania dźwięku,
 - efekty realizowane przy użyciu `SoundPool`.
 
-## Technologie
+### Technologie
 - Kotlin
 - Jetpack Compose
 - Navigation Compose
