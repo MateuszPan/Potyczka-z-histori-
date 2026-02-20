@@ -2,9 +2,7 @@
 
 Mobilna aplikacja edukacyjna na system Android. To rpojekt pracy inżynierskiej na ISSP UWr.  
 Cel - wsparcie uczniów szkoły podstawowej w utrwalaniu wiedzy z przedmiotu historia, poprzez połączenie treści edukacyjnych z interaktywnymi grami. Aplikacja działa offline wykorzystuje lokalną bazę danych do przechowywania pytań i opowiedzi.
-<img width="210" height="422" alt="pojedynek_skok" src="https://github.com/user-attachments/assets/0f884923-4c60-4520-b06b-423343cfb811" />
-
-
+<img width="210" height="422" alt="welcomeScreen" src="https://github.com/user-attachments/assets/17aedbf6-1f53-46a7-a981-ccf0c525e58d" />   <img width="210" height="422" alt="pojedynek_skok" src="https://github.com/user-attachments/assets/0f884923-4c60-4520-b06b-423343cfb811" />   <img width="210" height="422" alt="potyczka_gonitwa" src="https://github.com/user-attachments/assets/f42a9c1a-1f90-495e-abe1-a0aa7f38d62c" />
 Dwa tryby gry:
 1 -Potyczka
 Tryb łączący elementy zręcznościowe z quizem edukacyjnym.Cechy to:
