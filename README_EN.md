@@ -1,10 +1,10 @@
-## "Clash with History"
+### "Clash with History"
 A mobile educational application for Android. This is an engineering thesis project at ISSP, University of Wrocław.
 Goal: to support primary school students in reinforcing their history knowledge by combining educational content with interactive games. The application works offline and uses a local database to store questions and answers.
 welcomeScreen avatar era chapter
 level potyczka_chase answer_wrong summary
 duel_jump master_answer_correct master_defeat
-## Game Modes
+### Game Modes
 
 1 — Clash (Potyczka)
 
@@ -29,34 +29,34 @@ Features:
 •	game loop paused during questions,
 Win/lose conditions: points, knowledge level, number of mistakes, time limit.
 
-## Educational Features
+### Educational Features
 •	questions compliant with the history curriculum (any curriculum changes can be easily introduced into the code),
 •	randomized order of questions and answers,
 •	immediate feedback (colors + sound),
 •	possibility of repeated practice,
 •	no internet connection required.
 
-## Application Architecture
+### Application Architecture
 Logical division into three layers:
 •	UI – Jetpack Compose (declarative interface),
 •	Logic and navigation – Navigation Compose,
 •	Data – Room + SQLite.
 Data is passed explicitly between screens using navigation arguments, without using global application state.
 
-## Database
+### Database
 •	local relational SQLite database,
 •	handled via the Room library,
 •	entities: EpochEntity, ChapterEntity, QuestionEntity, AnswerEntity,
 •	foreign key relations with cascade deletion,
 •	data initialization via DatabaseSeeder.
 
-## Sound
+### Sound
 •	background music played globally,
 •	sound effects: correct answer, wrong answer, collision, bonus/trap,
 •	ability to adjust/mute sound,
 •	effects implemented using SoundPool.
 
-## Technologies
+### Technologies
 •	Kotlin
 •	Jetpack Compose
 •	Navigation Compose
