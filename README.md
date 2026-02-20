@@ -24,18 +24,14 @@ Dynamiczny tryb typu runner, skierowany do bardziej zaawansowanych w historii gr
 - fizyka skoku niezależna od FPS,
 - pytania losowane z całej bazy danych,
 - pauzowanie pętli gry podczas pytania,
-- warunki zwycięstwa/porażki:
-  - punkty,
-  - poziom wiedzy,
-  - liczba błędów,
-  - limit czasu.
+- warunki zwycięstwa/porażki: punkty, poziom wiedzy, liczba błędów, limit czasu.
 
 Funkcje edukacyjne:
 - pytania zgodne z podstawą programową historii, (ewentualne zmiany w podstawie łatwo wprowadzić do kodu)
 - losowa kolejność pytań i odpowiedzi,
 - natychmiastowa informacja zwrotna (kolory + dźwięk),
 - możliwość wielokrotnego powtarzania materiału,
-- brak konieczności połączenia z Internetem.
+- brak konieczności połączenia z siecią.
 
 Architektura aplikacji
 Logiczny podział na trzy warstwy:
@@ -53,11 +49,7 @@ Baza danych
 
 Dźwięk
 - muzyka tła odtwarzana globalnie,
-- efekty dźwiękowe:
-  - poprawna odpowiedź,
-  - błędna odpowiedź,
-  - kolizja,
-  - bonus/pułapka,
+- efekty dźwiękowe: poprawna odpowiedź, błędna odpowiedź, kolizja, bonus/pułapka,
 - możliwość regulacji/zastopowania dźwięku,
 - efekty realizowane przy użyciu `SoundPool`.
 
