@@ -2,7 +2,10 @@
 
 Mobilna aplikacja edukacyjna na system Android. To rpojekt pracy inżynierskiej na ISSP UWr.  
 Cel - wsparcie uczniów szkoły podstawowej w utrwalaniu wiedzy z przedmiotu historia, poprzez połączenie treści edukacyjnych z interaktywnymi grami. Aplikacja działa offline wykorzystuje lokalną bazę danych do przechowywania pytań i opowiedzi.
-<img width="210" height="422" alt="welcomeScreen" src="https://github.com/user-attachments/assets/17aedbf6-1f53-46a7-a981-ccf0c525e58d" />   <img width="210" height="422" alt="pojedynek_skok" src="https://github.com/user-attachments/assets/0f884923-4c60-4520-b06b-423343cfb811" />   <img width="210" height="422" alt="potyczka_gonitwa" src="https://github.com/user-attachments/assets/f42a9c1a-1f90-495e-abe1-a0aa7f38d62c" />
+<img width="210" height="422" alt="welcomeScreen" src="https://github.com/user-attachments/assets/17aedbf6-1f53-46a7-a981-ccf0c525e58d" />   <img width="210" height="422" alt="pojedynek_skok" src="https://github.com/user-attachments/assets/0f884923-4c60-4520-b06b-423343cfb811" />   <img width="210" height="422" alt="potyczka_gonitwa" src="https://github.com/user-attachments/assets/f42a9c1a-1f90-495e-abe1-a0aa7f38d62c" />   <img width="210" height="422" alt="epoka" src="https://github.com/user-attachments/assets/6034cc11-5cae-4955-8736-fc15ca882790" />
+<img width="210" height="422" alt="rozdzial" src="https://github.com/user-attachments/assets/4a66b1ca-dff8-4770-8da9-9ae0a03ff610" />   <img width="210" height="422" alt="poziom" src="https://github.com/user-attachments/assets/0e729908-b2f3-4a7c-93b6-b74c7f3ec264" />   <img width="210" height="422" alt="odp_nie" src="https://github.com/user-attachments/assets/f8a6559b-cb26-4761-9b6b-e450ff6e56fe" />   <img width="210" height="422" alt="podsumowanie" src="https://github.com/user-attachments/assets/5eeae636-9338-4410-9517-fe6b2ef9bdfd" />
+<img width="210" height="422" alt="mistrz_odp_tak" src="https://github.com/user-attachments/assets/0107a571-af18-439b-b963-109f7791fd6f" />
+
 Dwa tryby gry:
 1 -Potyczka
 Tryb łączący elementy zręcznościowe z quizem edukacyjnym.Cechy to:
